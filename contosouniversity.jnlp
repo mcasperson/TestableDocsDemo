@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://s3-ap-southeast-2.amazonaws.com/ag-iridium/">
+    <information>
+      <title>Iridium</title>
+      <vendor>Auto and General</vendor>
+    </information>
+    <resources>
+        <j2se version="1.8+" href="http://java.sun.com/products/autodl/j2se"/>
+        <property name="jnlp.packEnabled" value="false"/>
+        <property name="javaws.testSource" value="contosouniversity.feature"/>
+        <property name="javaws.testDestination" value="ChromeFullscreen"/>
+        <property name="javaws.openReportFile" value="false"/>
+        <property name="javaws.saveReportsInHomeDir" value="true"/>
+        <property name="javaws.moveCursorToElement" value="true"/>
+        <property name="javaws.enableVideoCapture" value="true"/>
+        <jar href="IridiumApplicationTesting.jar" main="true" />
+    </resources>
+    <application-desc
+        name="Web Application tester"
+        main-class="au.com.agic.apptesting.Main">
+    </application-desc>
+    <update check="timeout" policy="always"/>
+    <security>
+        <all-permissions/>
+    </security>
+</jnlp>
