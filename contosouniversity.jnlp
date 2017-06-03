@@ -7,7 +7,7 @@
     <resources>
         <j2se version="1.8+" href="http://java.sun.com/products/autodl/j2se"/>
         <property name="jnlp.packEnabled" value="false"/>
-        <property name="javaws.testSource" value="contosouniversity.feature"/>
+        <property name="javaws.testSource" value="https://raw.githubusercontent.com/mcasperson/TestableDocsDemo/master/contosouniversity.feature"/>
         <property name="javaws.testDestination" value="ChromeFullscreen"/>
         <property name="javaws.openReportFile" value="false"/>
         <property name="javaws.saveReportsInHomeDir" value="true"/>
